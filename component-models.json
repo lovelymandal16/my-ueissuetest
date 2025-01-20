@@ -402,7 +402,15 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "Required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "select",
@@ -3047,7 +3055,15 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "Required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "select",
@@ -3168,7 +3184,15 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "Required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "select",
