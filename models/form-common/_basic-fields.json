@@ -30,7 +30,6 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true,
             "condition": {
           "==": [
             {
