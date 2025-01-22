@@ -24,6 +24,21 @@
             "label": "Show Component",
             "valueType": "boolean",
             "value": true, 
+            "condition": {
+                "==": [
+                    {
+                    "var": "required"
+                    },
+                    false
+                ]
+            }
+        },
+        {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false, 
             "readOnly": true, 
             "condition": {
                 "==": [
@@ -33,13 +48,6 @@
                     true
                 ]
             }
-        },
-        {
-            "component": "boolean",
-            "name": "visible",
-            "label": "Show Component",
-            "valueType": "boolean",
-            "value": false
         },
         {
             "component": "boolean",

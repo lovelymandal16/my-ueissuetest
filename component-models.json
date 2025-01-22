@@ -396,6 +396,21 @@
             "label": "Show Component",
             "valueType": "boolean",
             "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
             "readOnly": true,
             "condition": {
               "==": [
@@ -405,13 +420,6 @@
                 true
               ]
             }
-          },
-          {
-            "component": "boolean",
-            "name": "visible",
-            "label": "Show Component",
-            "valueType": "boolean",
-            "value": false
           },
           {
             "component": "boolean",
@@ -550,7 +558,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -781,7 +813,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -992,7 +1048,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -1247,7 +1327,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -1461,7 +1565,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -1688,7 +1816,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -1893,7 +2045,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -2110,7 +2286,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -2341,7 +2541,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -2590,7 +2814,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -2825,7 +3073,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -3057,6 +3329,21 @@
             "label": "Show Component",
             "valueType": "boolean",
             "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
             "readOnly": true,
             "condition": {
               "==": [
@@ -3066,13 +3353,6 @@
                 true
               ]
             }
-          },
-          {
-            "component": "boolean",
-            "name": "visible",
-            "label": "Show Component",
-            "valueType": "boolean",
-            "value": false
           },
           {
             "component": "boolean",
@@ -3194,6 +3474,21 @@
             "label": "Show Component",
             "valueType": "boolean",
             "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
             "readOnly": true,
             "condition": {
               "==": [
@@ -3203,13 +3498,6 @@
                 true
               ]
             }
-          },
-          {
-            "component": "boolean",
-            "name": "visible",
-            "label": "Show Component",
-            "valueType": "boolean",
-            "value": false
           },
           {
             "component": "boolean",
@@ -3348,7 +3636,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -3561,14 +3873,14 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true, 
+            "value": true,
             "condition": {
-                "==": [
-                    {
-                    "var": "required"
-                    },
-                    false
-                ]
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
             }
           },
           {
@@ -3576,15 +3888,15 @@
             "name": "visibleReadOnly",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true, 
-            "readOnly": true, 
+            "value": false,
+            "readOnly": true,
             "condition": {
-                "==": [
-                    {
-                    "var": "required"
-                    },
-                    true
-                ]
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
             }
           },
           {
@@ -3893,7 +4205,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -4074,7 +4410,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -4219,7 +4579,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -4422,7 +4806,31 @@
                 "name": "visible",
                 "label": "Show Component",
                 "valueType": "boolean",
-                "value": true
+                "value": true,
+                "condition": {
+                  "==": [
+                    {
+                      "var": "required"
+                    },
+                    false
+                  ]
+                }
+              },
+              {
+                "component": "boolean",
+                "name": "visibleReadOnly",
+                "label": "Show Component",
+                "valueType": "boolean",
+                "value": false,
+                "readOnly": true,
+                "condition": {
+                  "==": [
+                    {
+                      "var": "required"
+                    },
+                    true
+                  ]
+                }
               },
               {
                 "component": "boolean",
@@ -4575,7 +4983,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": false,
+            "readOnly": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
