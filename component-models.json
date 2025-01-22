@@ -402,14 +402,7 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "condition": {
-              "==": [
-                {
-                  "var": "Required"
-                },
-                true
-              ]
-            }
+            "value": true
           },
           {
             "component": "select",
@@ -3054,14 +3047,7 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "condition": {
-              "==": [
-                {
-                  "var": "Required"
-                },
-                true
-              ]
-            }
+            "value": true
           },
           {
             "component": "select",
@@ -3182,14 +3168,7 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "condition": {
-              "==": [
-                {
-                  "var": "Required"
-                },
-                true
-              ]
-            }
+            "value": true
           },
           {
             "component": "select",
@@ -3534,14 +3513,7 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "condition": {
-              "==": [
-                {
-                  "var": "Required"
-                },
-                true
-              ]
-            }
+            "value": true
           },
           {
             "component": "boolean",

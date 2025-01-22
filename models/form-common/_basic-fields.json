@@ -30,14 +30,7 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "condition": {
-          "==": [
-            {
-              "var": "Required"
-            },
-            true
-          ]
-        }
+            "value": true
         },
         {
             "component": "select",
