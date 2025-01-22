@@ -395,7 +395,15 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "readOnly": {
+              "===": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -3040,7 +3048,15 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "readOnly": {
+              "===": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -3161,7 +3177,15 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "readOnly": {
+              "===": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -3513,8 +3537,7 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true, 
-            "readOnly": true
+            "value": true
           },
           {
             "component": "boolean",
