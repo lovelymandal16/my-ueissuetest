@@ -3561,7 +3561,31 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true
+            "value": true, 
+            "condition": {
+                "==": [
+                    {
+                    "var": "required"
+                    },
+                    false
+                ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "visibleReadOnly",
+            "label": "Show Component",
+            "valueType": "boolean",
+            "value": true, 
+            "readOnly": true, 
+            "condition": {
+                "==": [
+                    {
+                    "var": "required"
+                    },
+                    true
+                ]
+            }
           },
           {
             "component": "boolean",
