@@ -72,7 +72,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+                "==": [
+                    {
+                    "var": "required"
+                    },
+                    false
+                ]
+            }
+        },
+        {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+                "==": [
+                    {
+                    "var": "required"
+                    },
+                    true
+                ]
+            }
         },
         {
             "component": "boolean",

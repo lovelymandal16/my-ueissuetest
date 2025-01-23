@@ -395,31 +395,7 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true,
-            "condition": {
-              "==": [
-                {
-                  "var": "required"
-                },
-                false
-              ]
-            }
-          },
-          {
-            "component": "boolean",
-            "name": "visibleReadOnly",
-            "label": "Show Component",
-            "valueType": "boolean",
-            "value": false,
-            "readOnly": true,
-            "condition": {
-              "==": [
-                {
-                  "var": "required"
-                },
-                true
-              ]
-            }
+            "value": true
           },
           {
             "component": "boolean",
@@ -589,7 +565,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -844,7 +843,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -1079,7 +1101,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -1358,7 +1403,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -1596,7 +1664,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -1847,7 +1938,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -2076,7 +2190,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -2317,7 +2454,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -2572,7 +2732,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -2845,7 +3028,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -3104,7 +3310,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -3328,31 +3557,7 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true,
-            "condition": {
-              "==": [
-                {
-                  "var": "required"
-                },
-                false
-              ]
-            }
-          },
-          {
-            "component": "boolean",
-            "name": "visibleReadOnly",
-            "label": "Show Component",
-            "valueType": "boolean",
-            "value": false,
-            "readOnly": true,
-            "condition": {
-              "==": [
-                {
-                  "var": "required"
-                },
-                true
-              ]
-            }
+            "value": true
           },
           {
             "component": "boolean",
@@ -3473,31 +3678,7 @@
             "name": "visible",
             "label": "Show Component",
             "valueType": "boolean",
-            "value": true,
-            "condition": {
-              "==": [
-                {
-                  "var": "required"
-                },
-                false
-              ]
-            }
-          },
-          {
-            "component": "boolean",
-            "name": "visibleReadOnly",
-            "label": "Show Component",
-            "valueType": "boolean",
-            "value": false,
-            "readOnly": true,
-            "condition": {
-              "==": [
-                {
-                  "var": "required"
-                },
-                true
-              ]
-            }
+            "value": true
           },
           {
             "component": "boolean",
@@ -3667,7 +3848,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -3904,7 +4108,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -4236,7 +4463,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -4441,7 +4691,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -4610,7 +4883,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
@@ -4837,7 +5133,30 @@
                 "name": "enabled",
                 "label": "Enable Component",
                 "valueType": "boolean",
-                "value": true
+                "value": true,
+                "condition": {
+                  "==": [
+                    {
+                      "var": "required"
+                    },
+                    false
+                  ]
+                }
+              },
+              {
+                "component": "boolean",
+                "name": "enabledReadOnly",
+                "label": "Enable Component",
+                "valueType": "boolean",
+                "value": false,
+                "condition": {
+                  "==": [
+                    {
+                      "var": "required"
+                    },
+                    true
+                  ]
+                }
               },
               {
                 "component": "boolean",
@@ -5014,7 +5333,30 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                false
+              ]
+            }
+          },
+          {
+            "component": "boolean",
+            "name": "enabledReadOnly",
+            "label": "Enable Component",
+            "valueType": "boolean",
+            "value": false,
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
