@@ -88,6 +88,7 @@
             "label": "Enable Component",
             "valueType": "boolean",
             "value": false,
+            "readOnly": true, 
             "condition": {
                 "==": [
                     {
